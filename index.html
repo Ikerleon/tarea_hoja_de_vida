@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--la clase contenedor se encargara de contener todos los demas div dentro de el para darle un mismo fondo y tipo de letra-->
+    <div class="contenedor">
+        <!--header utilizado para realizar el encabezado-->
+        <header>
+            <img class="imagen" src="imagenes/perfil.jpeg" alt="imagen de perfil"> <!--imagen de la hoja de vida-->
+            <p class="nombre">Iker Hernan Leon Quimis</p>
+        </header>
+        <!--la clase columna es utilizada para guardar dentro de ella la columna izquiera y la derecha-->
+        <div class="columnas">
+            <!--clase columizquierda utilizada para poner todo de la columna izquierda-->
+            <div class="columizquierda">
+                <!--las clases titulo, parrafo y subtitulo son utilizadas para distinguir los 
+                diferentes tipos de textos ingresados y asi poder modificarlos en css con mayor facilidad-->
+                <h4 class="titulo">Datos personales</h4>
+                <h5 class="subtitulo">Cedula de identidad</h5>
+                <p class="parrafo">135172555-9</p>
+                <h5 class="subtitulo">Lugar y fecha de nacimiento</h5>
+                <p class="parrafo">Manta, 01 de octubre de 2002</p>
+                <h5 class="subtitulo">Edad</h5>
+                <p class="parrafo">20 años</p>
+                <h5 class="subtitulo">Teléfono</h5>
+                <p class="parrafo">+593 96 385 9737</p>
+                <h5 class="subtitulo">Correo electrónico</h5>
+                <p class="parrafo">ikerleonhernan@gmail.com</p>
+                <hr>
+                <h4 class="titulo">Estudios</h4>
+                <h5 class="subtitulo">Universidad</h5>
+                <p class="parrafo">Universidad Laica Eloy Alfaro de Manabí (Uleam) 4to semestre -
+                    Ingeniería en tecnología de la información, 2023.</p>
+                <h5 class="subtitulo">Secundaria</h5>
+                <p class="parrafo">Unidad Educativa "La moderna ". Bachiller en ciencias. Año 2019-2020</p>
+                <h5 class="subtitulo">Primaria</h5>
+                <p class="parrafo">Unidad Educativa "Seneca".</p>
+                <hr>
+            </div>
+            <!--clase columderecha utilizada para poner todo de la columna derecha-->
+            <div class="columderecha">
+                <h4 class="titulo">Experiencia laboral</h4>
+                <p class="parrafo">Almacen Iker- Ventas. Febrero de 2020 a Diciembre <br> de 2022</p>
+                <hr>
+                <h4 class="titulo">Habilidades</h4>
+                <p class="parrafo">Manejo y dominio en Windows Vista, 7 y 8.</p>
+                <p class="parrafo">Paquete Microsoft Office (Word, Excel, PowerPoint, Publisher).</p>
+                <p class="parrafo">Habilidad para comunicarse de forma clara y precisa.</p>
+                <p class="parrafo">Acato de instrucciones orales y escrita.</p>
+                <p class="parrafo">Trabaja en equipo y bajo presión.</p>
+                <p class="parrafo">Análisis y resolución de conflictos.</p>
+                <p class="parrafo">Toma de decisiones</p>
+                <p class="parrafo">Conocimientos en sistemas operativos.</p>
+                <p class="parrafo">Servicio al cliente.</p>  
+                <hr>
+                <h4 class="titulo">Capacitaciones</h4> 
+                <p class="parrafo">Décima Edición del Congreso de Tecnologías de la Información y Comunicación TICEC 2022</p>    
+                <hr>     
+            </div>
+        </div>
+        <!--clase tablas utilizada para realizar una tabla dentro de ella-->
+        <div class="tablas">
+            <table>
+                <caption>Referencias personales</caption>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cargo</th>
+                    <th>Telefono</th>
+                    <th>Correo electronico</th>
+                </tr>
+                <tr>
+                    <td>Danna Nicole Loor Roca</td>
+                    <td>Ventas</td>
+                    <td>0963782584</td>
+                    <td>dannaloor@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Elizabeth Monserrate Quimis Carreño</td>
+                    <td>Administradora</td>
+                    <td>0983338521</td>
+                    <td>eliquimis1@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Debora Nicole Vera Luna</td>
+                    <td>Administracion</td>
+                    <td>0960820374</td>
+                    <td>deboravera@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
